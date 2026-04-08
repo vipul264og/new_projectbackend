@@ -1,0 +1,121 @@
+2026-04-07 20:20:28 [main] INFO  com.edulib.EdulibApplication - Starting EdulibApplication using Java 24.0.2 with PID 92729 (/Users/vipulkumar/Downloads/edulib 5/target/classes started by vipulkumar in /Users/vipulkumar/Downloads/edulib 5)
+2026-04-07 20:20:28 [main] DEBUG com.edulib.EdulibApplication - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-04-07 20:20:28 [main] INFO  com.edulib.EdulibApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 20:20:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-07 20:20:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2026-04-07 20:20:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 20:20:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 20:20:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-04-07 20:20:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-07 20:20:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 795 ms
+2026-04-07 20:20:29 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-07 20:20:29 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-07 20:20:29 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-07 20:20:29 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-07 20:20:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-07 20:20:29 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@416a4275
+2026-04-07 20:20:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-07 20:20:29 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 20:20:30 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-07 20:20:30 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-07 20:20:30 [main] DEBUG c.e.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-04-07 20:20:30 [main] INFO  com.edulib.config.FileStorageConfig - ==============================================
+2026-04-07 20:20:30 [main] INFO  com.edulib.config.FileStorageConfig -   FILE STORAGE LOCATION:
+2026-04-07 20:20:30 [main] INFO  com.edulib.config.FileStorageConfig -   /Users/vipulkumar/edulib-uploads
+2026-04-07 20:20:30 [main] INFO  com.edulib.config.FileStorageConfig - ==============================================
+2026-04-07 20:20:30 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-07 20:20:31 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 20:20:31 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@35d613cb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f498e2, org.springframework.security.web.context.SecurityContextHolderFilter@f47bd4d, org.springframework.security.web.header.HeaderWriterFilter@29d7d117, org.springframework.web.filter.CorsFilter@4c16a6e7, org.springframework.security.web.authentication.logout.LogoutFilter@3b6a4b91, com.edulib.security.JwtAuthenticationFilter@16269ff4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c0abd1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d60c9e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34195ce5, org.springframework.security.web.session.SessionManagementFilter@6aef33f6, org.springframework.security.web.access.ExceptionTranslationFilter@42141c59, org.springframework.security.web.access.intercept.AuthorizationFilter@1d95501b]
+2026-04-07 20:20:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-04-07 20:20:31 [main] INFO  com.edulib.EdulibApplication - Started EdulibApplication in 3.777 seconds (process running for 4.308)
+2026-04-07 20:21:15 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 20:21:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 20:21:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 78 ms
+2026-04-07 20:21:15 [http-nio-8080-exec-1] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books
+2026-04-07 20:21:16 [http-nio-8080-exec-2] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books
+2026-04-07 20:21:21 [http-nio-8080-exec-4] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/reviews
+2026-04-07 20:21:21 [http-nio-8080-exec-3] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2
+2026-04-07 20:21:21 [http-nio-8080-exec-5] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2
+2026-04-07 20:21:21 [http-nio-8080-exec-6] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/reviews
+2026-04-07 20:21:23 [http-nio-8080-exec-7] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/download
+2026-04-07 20:21:23 [http-nio-8080-exec-7] ERROR com.edulib.config.FileStorageConfig - File not found on disk. Expected at: /Users/vipulkumar/edulib-uploads/7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:23 [http-nio-8080-exec-7] ERROR com.edulib.config.FileStorageConfig - Storage root is: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:23 [http-nio-8080-exec-7] ERROR com.edulib.config.FileStorageConfig - Stored filename from DB: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:23 [http-nio-8080-exec-7] ERROR c.e.exception.GlobalExceptionHandler - File not found on disk: File not found: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf | Storage location: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:34 [http-nio-8080-exec-8] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/download
+2026-04-07 20:21:34 [http-nio-8080-exec-8] ERROR com.edulib.config.FileStorageConfig - File not found on disk. Expected at: /Users/vipulkumar/edulib-uploads/7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:34 [http-nio-8080-exec-8] ERROR com.edulib.config.FileStorageConfig - Storage root is: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:34 [http-nio-8080-exec-8] ERROR com.edulib.config.FileStorageConfig - Stored filename from DB: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:34 [http-nio-8080-exec-8] ERROR c.e.exception.GlobalExceptionHandler - File not found on disk: File not found: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf | Storage location: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:39 [http-nio-8080-exec-9] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/download
+2026-04-07 20:21:39 [http-nio-8080-exec-9] ERROR com.edulib.config.FileStorageConfig - File not found on disk. Expected at: /Users/vipulkumar/edulib-uploads/7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:39 [http-nio-8080-exec-9] ERROR com.edulib.config.FileStorageConfig - Storage root is: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:39 [http-nio-8080-exec-9] ERROR com.edulib.config.FileStorageConfig - Stored filename from DB: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:39 [http-nio-8080-exec-9] ERROR c.e.exception.GlobalExceptionHandler - File not found on disk: File not found: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf | Storage location: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:40 [http-nio-8080-exec-10] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/download
+2026-04-07 20:21:40 [http-nio-8080-exec-10] ERROR com.edulib.config.FileStorageConfig - File not found on disk. Expected at: /Users/vipulkumar/edulib-uploads/7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:40 [http-nio-8080-exec-10] ERROR com.edulib.config.FileStorageConfig - Storage root is: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:40 [http-nio-8080-exec-10] ERROR com.edulib.config.FileStorageConfig - Stored filename from DB: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:40 [http-nio-8080-exec-10] ERROR c.e.exception.GlobalExceptionHandler - File not found on disk: File not found: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf | Storage location: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:41 [http-nio-8080-exec-1] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/download
+2026-04-07 20:21:41 [http-nio-8080-exec-1] ERROR com.edulib.config.FileStorageConfig - File not found on disk. Expected at: /Users/vipulkumar/edulib-uploads/7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:41 [http-nio-8080-exec-1] ERROR com.edulib.config.FileStorageConfig - Storage root is: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:41 [http-nio-8080-exec-1] ERROR com.edulib.config.FileStorageConfig - Stored filename from DB: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:41 [http-nio-8080-exec-1] ERROR c.e.exception.GlobalExceptionHandler - File not found on disk: File not found: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf | Storage location: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:46 [http-nio-8080-exec-2] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2/download
+2026-04-07 20:21:46 [http-nio-8080-exec-2] ERROR com.edulib.config.FileStorageConfig - File not found on disk. Expected at: /Users/vipulkumar/edulib-uploads/7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:46 [http-nio-8080-exec-2] ERROR com.edulib.config.FileStorageConfig - Storage root is: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:21:46 [http-nio-8080-exec-2] ERROR com.edulib.config.FileStorageConfig - Stored filename from DB: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:21:46 [http-nio-8080-exec-2] ERROR c.e.exception.GlobalExceptionHandler - File not found on disk: File not found: 7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf | Storage location: /Users/vipulkumar/edulib-uploads
+2026-04-07 20:23:40 [http-nio-8080-exec-3] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books
+2026-04-07 20:23:40 [http-nio-8080-exec-4] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books
+2026-04-07 20:23:44 [http-nio-8080-exec-5] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/2
+2026-04-07 20:23:44 [http-nio-8080-exec-5] WARN  com.edulib.config.FileStorageConfig - File to delete was already missing: /Users/vipulkumar/edulib-uploads/7de2ac4c-4a5d-4b8f-ad23-b039a7703e11.pdf
+2026-04-07 20:23:45 [http-nio-8080-exec-5] INFO  c.e.service.impl.BookServiceImpl - Book deleted: id=2
+2026-04-07 20:24:15 [http-nio-8080-exec-6] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books
+2026-04-07 20:24:15 [http-nio-8080-exec-6] INFO  com.edulib.config.FileStorageConfig - File stored: original='Standed&External Access List  (1).pdf' saved-as='cb8b7a09-b914-42e6-a6cc-df1895d1885b.pdf' path='/Users/vipulkumar/edulib-uploads/cb8b7a09-b914-42e6-a6cc-df1895d1885b.pdf'
+2026-04-07 20:24:15 [http-nio-8080-exec-6] INFO  c.e.service.impl.BookServiceImpl - Book created: id=4, title=don
+2026-04-07 20:24:19 [http-nio-8080-exec-8] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/downloads
+2026-04-07 20:24:19 [http-nio-8080-exec-7] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/stats
+2026-04-07 20:24:19 [http-nio-8080-exec-9] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/downloads
+2026-04-07 20:24:19 [http-nio-8080-exec-10] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/stats
+2026-04-07 20:24:20 [http-nio-8080-exec-1] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books
+2026-04-07 20:24:20 [http-nio-8080-exec-2] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books
+2026-04-07 20:24:22 [http-nio-8080-exec-3] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/4
+2026-04-07 20:24:22 [http-nio-8080-exec-4] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/4/reviews
+2026-04-07 20:24:22 [http-nio-8080-exec-5] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/4
+2026-04-07 20:24:22 [http-nio-8080-exec-6] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/4/reviews
+2026-04-07 20:24:23 [http-nio-8080-exec-8] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/4/download
+2026-04-07 20:24:23 [http-nio-8080-exec-8] DEBUG com.edulib.config.FileStorageConfig - File loaded: /Users/vipulkumar/edulib-uploads/cb8b7a09-b914-42e6-a6cc-df1895d1885b.pdf
+2026-04-07 20:24:23 [http-nio-8080-exec-8] INFO  c.e.service.impl.BookServiceImpl - Download recorded: bookId=4, userId=1
+2026-04-07 20:24:32 [http-nio-8080-exec-7] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/4/reviews
+2026-04-07 20:24:32 [http-nio-8080-exec-7] INFO  c.e.service.impl.ReviewServiceImpl - Review added: bookId=4, userId=1
+2026-04-07 20:24:36 [http-nio-8080-exec-10] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/downloads
+2026-04-07 20:24:36 [http-nio-8080-exec-9] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/stats
+2026-04-07 20:24:36 [http-nio-8080-exec-1] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/stats
+2026-04-07 20:24:36 [http-nio-8080-exec-2] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/downloads
+2026-04-07 20:24:44 [http-nio-8080-exec-3] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/books/4/download
+2026-04-07 20:24:44 [http-nio-8080-exec-3] DEBUG com.edulib.config.FileStorageConfig - File loaded: /Users/vipulkumar/edulib-uploads/cb8b7a09-b914-42e6-a6cc-df1895d1885b.pdf
+2026-04-07 20:24:44 [http-nio-8080-exec-3] INFO  c.e.service.impl.BookServiceImpl - Download recorded: bookId=4, userId=1
+2026-04-07 20:24:44 [http-nio-8080-exec-4] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipul@gmail.com for URI: /api/v1/users/me/downloads
+2026-04-07 20:25:06 [http-nio-8080-exec-5] INFO  c.edulib.controller.AuthController - Login request for email: vipulkr264@gmail.com
+2026-04-07 20:25:07 [http-nio-8080-exec-5] INFO  c.e.service.impl.AuthServiceImpl - User logged in: vipulkr264@gmail.com
+2026-04-07 20:25:07 [http-nio-8080-exec-6] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books
+2026-04-07 20:25:07 [http-nio-8080-exec-8] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books
+2026-04-07 20:25:13 [http-nio-8080-exec-9] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books/4/reviews
+2026-04-07 20:25:13 [http-nio-8080-exec-7] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books/4
+2026-04-07 20:25:13 [http-nio-8080-exec-1] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books/4/reviews
+2026-04-07 20:25:13 [http-nio-8080-exec-10] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books/4
+2026-04-07 20:25:16 [http-nio-8080-exec-2] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books/4/download
+2026-04-07 20:25:16 [http-nio-8080-exec-2] DEBUG com.edulib.config.FileStorageConfig - File loaded: /Users/vipulkumar/edulib-uploads/cb8b7a09-b914-42e6-a6cc-df1895d1885b.pdf
+2026-04-07 20:25:16 [http-nio-8080-exec-2] INFO  c.e.service.impl.BookServiceImpl - Download recorded: bookId=4, userId=2
+2026-04-07 20:25:24 [http-nio-8080-exec-3] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/books/4/reviews
+2026-04-07 20:25:24 [http-nio-8080-exec-3] INFO  c.e.service.impl.ReviewServiceImpl - Review added: bookId=4, userId=2
+2026-04-07 20:25:28 [http-nio-8080-exec-4] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/users/me/stats
+2026-04-07 20:25:28 [http-nio-8080-exec-5] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/users/me/downloads
+2026-04-07 20:25:28 [http-nio-8080-exec-6] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/users/me/stats
+2026-04-07 20:25:28 [http-nio-8080-exec-8] DEBUG c.e.security.JwtAuthenticationFilter - Authenticated user: vipulkr264@gmail.com for URI: /api/v1/users/me/downloads
+2026-04-07 20:25:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-04-07 20:25:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-07 20:25:59 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-07 20:25:59 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
